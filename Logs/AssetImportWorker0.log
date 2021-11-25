@@ -1,0 +1,825 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 32677 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+S:/PXR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55672
+Successfully changed project path to: S:/PXR
+S:/PXR
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 54.72 ms, found 9 plugins.
+Preloading 5 native plugins for Editor in 1.64 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path S:/PXR/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5700 (ID=0x731f)
+    Vendor:   
+    VRAM:     8151 MB
+    Driver:   27.20.21003.8013
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002110 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 52.80 ms, found 9 plugins.
+Preloading 5 native plugins for Editor in 0.13 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.597 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1597ms)
+		BeginReloadAssembly (45ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (381ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (129ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (166ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006041 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 50.65 ms, found 9 plugins.
+Preloading 5 native plugins for Editor in 0.12 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in S:\PXR\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:250 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in S:\PXR\Library\PackageCache\com.unity.xr.oculus@1.10.0\Runtime\OculusLoader.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <5ad584e208e14caaa9e6b2e6027e9204>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.059 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1059ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (875ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (335ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 9 plugins.
+Preloading 5 native plugins for Editor in 0.14 ms.
+Unloading 2834 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.9 MB.
+System memory in use after: 129.1 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3262.
+Total: 3.848800 ms (FindLiveObjects: 0.339400 ms CreateObjectMapping: 0.077600 ms MarkObjects: 3.334600 ms  DeleteObjects: 0.095700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Synty Assets.unity
+  artifactKey: Guid(bfc50e6207228e04daa11e28e1f3da74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Synty Assets.unity using Guid(bfc50e6207228e04daa11e28e1f3da74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f09a321a433c8b4066489e82611b64bf') in 0.018348 seconds 
+  Import took 0.023233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 232.794201 seconds.
+  path: Assets/PolygonNature/URP_Extract_Me.unitypackage
+  artifactKey: Guid(a064949e8b7c31e4699684de4fb7ff30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/URP_Extract_Me.unitypackage using Guid(a064949e8b7c31e4699684de4fb7ff30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223286538a9193eada46ea3804ac24b5') in 0.021766 seconds 
+  Import took 0.026559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.188395 seconds.
+  path: Assets/Materials/sky.mat
+  artifactKey: Guid(5e430eb90def79f4ab9e8533ed18f591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/sky.mat using Guid(5e430eb90def79f4ab9e8533ed18f591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd6b2c6eab01afe58e6673135bbb1a9') in 0.180002 seconds 
+  Import took 0.184615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.381983 seconds.
+  path: Assets/PolygonNature/Scenes
+  artifactKey: Guid(bd8d7e948600b8949b212dae761c7390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Scenes using Guid(bd8d7e948600b8949b212dae761c7390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afaa19572592353060b8e77d49fd69e1') in 0.006069 seconds 
+  Import took 0.010447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.738674 seconds.
+  path: Assets/PolygonNature/Scenes/DemoScene_01.unity
+  artifactKey: Guid(d5673b812d5fa6d4abc53777e9b3fa6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Scenes/DemoScene_01.unity using Guid(d5673b812d5fa6d4abc53777e9b3fa6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13509963215456db0728d53e761baa55') in 0.006215 seconds 
+  Import took 0.010728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.742271 seconds.
+  path: Assets/PolygonNature/Scenes/DemoScene_Classic_Trees.unity
+  artifactKey: Guid(8866da7caad60954a93a5a2f437a384b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Scenes/DemoScene_Classic_Trees.unity using Guid(8866da7caad60954a93a5a2f437a384b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f21e6e330000b322140aee23dc5d127') in 0.006793 seconds 
+  Import took 0.011295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.398454 seconds.
+  path: Assets/PolygonNature/Scenes/Terrains
+  artifactKey: Guid(83a6e0e57f2370e4f818528ba27360ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Scenes/Terrains using Guid(83a6e0e57f2370e4f818528ba27360ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9839308aa77d69efcff44fc8816b332') in 0.005881 seconds 
+  Import took 0.010371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084773 seconds.
+  path: Assets/PolygonNature/Scenes/Terrains/Terrain_Classic_Tree.asset
+  artifactKey: Guid(9514733bdb8907147af1bfa8c4117eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Scenes/Terrains/Terrain_Classic_Tree.asset using Guid(9514733bdb8907147af1bfa8c4117eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f94467341f970db06770dd8bd0c18e3') in 0.120597 seconds 
+  Import took 0.127391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/PolygonNature/Scenes/Terrains/Terrain_Main_Demo.asset
+  artifactKey: Guid(64b9bb98e309d5d428d5feca423a622c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Scenes/Terrains/Terrain_Main_Demo.asset using Guid(64b9bb98e309d5d428d5feca423a622c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e7f41c47994e0af3092e0dae3f01ba') in 0.167286 seconds 
+  Import took 0.173685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.058796 seconds.
+  path: Assets/PolygonNature/Textures/PolygonNature_01.png
+  artifactKey: Guid(2edd58f7c433e934db9029c375173b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/PolygonNature_01.png using Guid(2edd58f7c433e934db9029c375173b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f0a5a9e4116cf4f732e331a2c1ed89') in 0.046468 seconds 
+  Import took 0.051082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/PolygonNature/Textures/PolygonNature_04.png
+  artifactKey: Guid(458815036a8f55d4facb5830e312f957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/PolygonNature_04.png using Guid(458815036a8f55d4facb5830e312f957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6f3395911bd876dcae523bf0b17c43') in 0.009783 seconds 
+  Import took 0.014158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/PolygonNature/Textures/PolygonNature_03.png
+  artifactKey: Guid(ddf3366577458704d9e47cb411121f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/PolygonNature_03.png using Guid(ddf3366577458704d9e47cb411121f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a0d79c98b6a3f3a58a0426e74279ebb') in 0.010311 seconds 
+  Import took 0.014367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/PolygonNature/Textures/PolygonNature_02.png
+  artifactKey: Guid(07583e1294baec44b9215f00c68aa98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/PolygonNature_02.png using Guid(07583e1294baec44b9215f00c68aa98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a63bb69603a9178714e17eb8e8e6e9') in 0.010133 seconds 
+  Import took 0.014208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.274708 seconds.
+  path: Assets/PolygonNature/Textures/Grass_Textures
+  artifactKey: Guid(30abd273ed915064e8a553767b3a57cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Grass_Textures using Guid(30abd273ed915064e8a553767b3a57cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c721f0a3083038a2221a1e6715da051') in 0.005470 seconds 
+  Import took 0.009826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.487272 seconds.
+  path: Assets/PolygonNature/Materials
+  artifactKey: Guid(b1013781dabb62041b4f0096a6063b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Materials using Guid(b1013781dabb62041b4f0096a6063b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e45cd9bddb3bf40116206fd4568eb1') in 0.006934 seconds 
+  Import took 0.011040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056615 seconds.
+  path: Assets/PolygonNature/Materials/PolygonNature_01.mat
+  artifactKey: Guid(b72e16591230315448c77c827b522ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Materials/PolygonNature_01.mat using Guid(b72e16591230315448c77c827b522ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2b32cd45d6a3d9345282b7a831564e') in 0.014668 seconds 
+  Import took 0.019093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/PolygonNature/Materials/PolygonNature_Tree_TrunkDead.mat
+  artifactKey: Guid(b291e3a6f626bc24d918f721ab101467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Materials/PolygonNature_Tree_TrunkDead.mat using Guid(b291e3a6f626bc24d918f721ab101467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3b5d31d9f85aff05cad4fe8c98cec6') in 0.015630 seconds 
+  Import took 0.019756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/PolygonNature/Materials/PolygonNature_Plants.mat
+  artifactKey: Guid(eda6dccd9f725b14ab0c77266ee42429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Materials/PolygonNature_Plants.mat using Guid(eda6dccd9f725b14ab0c77266ee42429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0996aa5dc317a50d8f8e6b7bb92bc711') in 0.013860 seconds 
+  Import took 0.018544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/PolygonNature/Materials/PolygonNature_Tree.mat
+  artifactKey: Guid(f717718d04aa0e74f81e601a75507faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Materials/PolygonNature_Tree.mat using Guid(f717718d04aa0e74f81e601a75507faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e299a2e69e74f3b6b63cee497d89f02') in 0.012887 seconds 
+  Import took 0.017722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/PolygonNature/Materials/PolygonNature_Tree_Trunk.mat
+  artifactKey: Guid(9815abc3682332c43bb766decd901afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Materials/PolygonNature_Tree_Trunk.mat using Guid(9815abc3682332c43bb766decd901afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a7dd057256756f153d171d9b7b1329') in 0.016296 seconds 
+  Import took 0.020927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.549835 seconds.
+  path: Assets/PolygonNature/Textures/Misc/Noise_Big.tga
+  artifactKey: Guid(4aaf5eafc291ee24ba7cefe12e6677a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Misc/Noise_Big.tga using Guid(4aaf5eafc291ee24ba7cefe12e6677a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f676d09ea317bc0f91ddfbe34c09de79') in 0.014131 seconds 
+  Import took 0.018845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001038 seconds.
+  path: Assets/PolygonNature/Textures/Misc/Noise_Big.tga
+  artifactKey: Guid(4aaf5eafc291ee24ba7cefe12e6677a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Misc/Noise_Big.tga using Guid(4aaf5eafc291ee24ba7cefe12e6677a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f676d09ea317bc0f91ddfbe34c09de79') in 0.005905 seconds 
+  Import took 0.010398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.591948 seconds.
+  path: Assets/PolygonNature/Textures/Misc/Noise_Small.png
+  artifactKey: Guid(ccb2545f0a1b98248ae14305439c4e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Misc/Noise_Small.png using Guid(ccb2545f0a1b98248ae14305439c4e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86716e1e1dc6980c3c2bb01b8b038f10') in 0.014478 seconds 
+  Import took 0.019022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001788 seconds.
+  path: Assets/PolygonNature/Textures/Misc/Noise_Small.png
+  artifactKey: Guid(ccb2545f0a1b98248ae14305439c4e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Misc/Noise_Small.png using Guid(ccb2545f0a1b98248ae14305439c4e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86716e1e1dc6980c3c2bb01b8b038f10') in 0.009749 seconds 
+  Import took 0.014259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.068192 seconds.
+  path: Assets/PolygonNature/_TerrainAutoUpgrade
+  artifactKey: Guid(b75aac25db7fc7e40a20290f43e7d6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/_TerrainAutoUpgrade using Guid(b75aac25db7fc7e40a20290f43e7d6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bcb3a43f90631adb9b95f1df2b71f40') in 0.005663 seconds 
+  Import took 0.010678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.003255 seconds.
+  path: Assets/PolygonNature/_TerrainAutoUpgrade/layer_FlowersFlowers_normals793646612c42751.terrainlayer
+  artifactKey: Guid(832b94804f2d6df44bacaa7e71619273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/_TerrainAutoUpgrade/layer_FlowersFlowers_normals793646612c42751.terrainlayer using Guid(832b94804f2d6df44bacaa7e71619273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf198b65505a09b73ce84591e85911f4') in 0.023023 seconds 
+  Import took 0.027573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/PolygonNature/_TerrainAutoUpgrade/layer_SandGrassHigherDetail_normals2023054508611406.terrainlayer
+  artifactKey: Guid(80aade5ad23d0bd48a89709b175f89ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/_TerrainAutoUpgrade/layer_SandGrassHigherDetail_normals2023054508611406.terrainlayer using Guid(80aade5ad23d0bd48a89709b175f89ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90fae13bd53566d20582ac74c7f402b') in 0.014054 seconds 
+  Import took 0.018012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/PolygonNature/_TerrainAutoUpgrade/layer_RockwallRockwall_Normalb3407d0e55802f81.terrainlayer
+  artifactKey: Guid(a98ec4a00a45bef41bdc446cc0f30b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/_TerrainAutoUpgrade/layer_RockwallRockwall_Normalb3407d0e55802f81.terrainlayer using Guid(a98ec4a00a45bef41bdc446cc0f30b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24527121a25a66ac878988f2037de922') in 0.019132 seconds 
+  Import took 0.023698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/PolygonNature/_TerrainAutoUpgrade/layer_GrassBaseGrass_normals2023054508611406.terrainlayer
+  artifactKey: Guid(125ce5c8840417b4ab3c43e1a2ed0042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/_TerrainAutoUpgrade/layer_GrassBaseGrass_normals2023054508611406.terrainlayer using Guid(125ce5c8840417b4ab3c43e1a2ed0042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085e31bf46a4c7033d93c778d7759664') in 0.017245 seconds 
+  Import took 0.021022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/PolygonNature/_TerrainAutoUpgrade/layer_Grass_02BaseGrass_normals2023054508611406.terrainlayer
+  artifactKey: Guid(a86fb074af234184d922b6e706995a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/_TerrainAutoUpgrade/layer_Grass_02BaseGrass_normals2023054508611406.terrainlayer using Guid(a86fb074af234184d922b6e706995a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0323b8d62de033b1b0fd92809a9c34') in 0.016813 seconds 
+  Import took 0.020700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/PolygonNature/_TerrainAutoUpgrade/layer_Leaves_03Leaves_normals_01b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(c93f8db191e80244886c6475a7fb2ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/_TerrainAutoUpgrade/layer_Leaves_03Leaves_normals_01b3407d0e55802f81.terrainlayer using Guid(c93f8db191e80244886c6475a7fb2ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2975018109cdc474667c470a81072775') in 0.020064 seconds 
+  Import took 0.023858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/PolygonNature/_TerrainAutoUpgrade/layer_PebblesPebbles_normals2023054508611406.terrainlayer
+  artifactKey: Guid(d4f6428bab91ff24eb864825a974493a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/_TerrainAutoUpgrade/layer_PebblesPebbles_normals2023054508611406.terrainlayer using Guid(d4f6428bab91ff24eb864825a974493a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f929d630ec36ab188977e551080ac34') in 0.017384 seconds 
+  Import took 0.021977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/PolygonNature/_TerrainAutoUpgrade/layer_RockwallRockwall_Normal2023054508611406.terrainlayer
+  artifactKey: Guid(aa0921c959ea57c469a69199becc25fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/_TerrainAutoUpgrade/layer_RockwallRockwall_Normal2023054508611406.terrainlayer using Guid(aa0921c959ea57c469a69199becc25fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee29397fb827b4fc4e3429b07e831e6c') in 0.016245 seconds 
+  Import took 0.020425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/PolygonNature/_TerrainAutoUpgrade/layer_SandBaseGrass_normals2023054508611406.terrainlayer
+  artifactKey: Guid(4fbd55aa18f1ab64e95ea00dff1a03e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/_TerrainAutoUpgrade/layer_SandBaseGrass_normals2023054508611406.terrainlayer using Guid(4fbd55aa18f1ab64e95ea00dff1a03e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eccdd712a803873b8b27f86474fc2271') in 0.017454 seconds 
+  Import took 0.021940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/PolygonNature/_TerrainAutoUpgrade/layer_Sand_DesertBaseGrass_normals2023054508611406.terrainlayer
+  artifactKey: Guid(da66f7193a76906429fb00f235e99cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/_TerrainAutoUpgrade/layer_Sand_DesertBaseGrass_normals2023054508611406.terrainlayer using Guid(da66f7193a76906429fb00f235e99cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfcd05ad4cda087efa665345ea669489') in 0.016237 seconds 
+  Import took 0.020775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/PolygonNature/_TerrainAutoUpgrade/layer_Pebbles_SandPebbles_normals36c77d22be2d3f9a.terrainlayer
+  artifactKey: Guid(79427292b583ffd46955649014a073e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/_TerrainAutoUpgrade/layer_Pebbles_SandPebbles_normals36c77d22be2d3f9a.terrainlayer using Guid(79427292b583ffd46955649014a073e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bc3dc3f56bb4b0d93f25b271448656') in 0.015178 seconds 
+  Import took 0.019214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/PolygonNature/_TerrainAutoUpgrade/layer_MudMud_Normal2e716cd1dfbd9e5a.terrainlayer
+  artifactKey: Guid(aed7378bebcb2cf47baf1234c6d80143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/_TerrainAutoUpgrade/layer_MudMud_Normal2e716cd1dfbd9e5a.terrainlayer using Guid(aed7378bebcb2cf47baf1234c6d80143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac049952d1145eb5662bc836d28b6c6') in 0.015551 seconds 
+  Import took 0.019572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/PolygonNature/_TerrainAutoUpgrade/layer_Leaves_04Leaves_normals_01b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(ee9165ae4f1201d4eb66588b5a335e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/_TerrainAutoUpgrade/layer_Leaves_04Leaves_normals_01b3407d0e55802f81.terrainlayer using Guid(ee9165ae4f1201d4eb66588b5a335e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d038731c20bf8ae873fcf41defa376c') in 0.016307 seconds 
+  Import took 0.020422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/PolygonNature/_TerrainAutoUpgrade/layer_Sand_DarkerBaseGrass_normals2023054508611406.terrainlayer
+  artifactKey: Guid(66bb14750ecd67f48ac5c26c70c13894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/_TerrainAutoUpgrade/layer_Sand_DarkerBaseGrass_normals2023054508611406.terrainlayer using Guid(66bb14750ecd67f48ac5c26c70c13894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6d016fae68dcb22d71f8deebe45714') in 0.015278 seconds 
+  Import took 0.019587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/PolygonNature/_TerrainAutoUpgrade/layer_LeavesLeaves_normals_01b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(3c0124277c21d9e4388e1dd38e290834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/_TerrainAutoUpgrade/layer_LeavesLeaves_normals_01b3407d0e55802f81.terrainlayer using Guid(3c0124277c21d9e4388e1dd38e290834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08666e88a26bf556b4f83a3c23532fc6') in 0.015487 seconds 
+  Import took 0.020264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/PolygonNature/_TerrainAutoUpgrade/layer_SnowGrassHigherDetail_normalsb8875f45e9c15431.terrainlayer
+  artifactKey: Guid(266636af17eedef408af3a48660c5fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/_TerrainAutoUpgrade/layer_SnowGrassHigherDetail_normalsb8875f45e9c15431.terrainlayer using Guid(266636af17eedef408af3a48660c5fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae90be7278295743da14f947544d286') in 0.013505 seconds 
+  Import took 0.017565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/PolygonNature/_TerrainAutoUpgrade/layer_Pebbles_SandPebbles_normals2023054508611406.terrainlayer
+  artifactKey: Guid(6f0b49713c8d3cd418795e9bd0b64439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/_TerrainAutoUpgrade/layer_Pebbles_SandPebbles_normals2023054508611406.terrainlayer using Guid(6f0b49713c8d3cd418795e9bd0b64439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8053caed48cba089e80a2e9a3451007d') in 0.014832 seconds 
+  Import took 0.019516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/PolygonNature/_TerrainAutoUpgrade/layer_Leaves_02Leaves_normals_01b3407d0e55802f81.terrainlayer
+  artifactKey: Guid(81b0d4ade4fc91c4bbf2680f6ffba4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/_TerrainAutoUpgrade/layer_Leaves_02Leaves_normals_01b3407d0e55802f81.terrainlayer using Guid(81b0d4ade4fc91c4bbf2680f6ffba4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21dfeb4b06dd0bb2e68fa844d626360') in 0.015298 seconds 
+  Import took 0.019842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/PolygonNature/_TerrainAutoUpgrade/layer_Pebbles_SandPebbles_normalsb8875f45e9c15431.terrainlayer
+  artifactKey: Guid(0ab46def99fd91d45bcfab5e1227ecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/_TerrainAutoUpgrade/layer_Pebbles_SandPebbles_normalsb8875f45e9c15431.terrainlayer using Guid(0ab46def99fd91d45bcfab5e1227ecce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b63b5bea080a5e4926f49c4ef1c4f6c') in 0.013999 seconds 
+  Import took 0.018927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.506167 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Flowers.png
+  artifactKey: Guid(2ac139036f538cc42a8301628453cad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Flowers.png using Guid(2ac139036f538cc42a8301628453cad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e073d2086ead254437c003142bfea7a') in 0.011623 seconds 
+  Import took 0.016295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Flowers_normals.png
+  artifactKey: Guid(fef99dc4f1da78f4bb42f06487d23444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Flowers_normals.png using Guid(fef99dc4f1da78f4bb42f06487d23444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd6b4a84f48cadf22f5103c2b70e9ba') in 0.014555 seconds 
+  Import took 0.019186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Flowers.png
+  artifactKey: Guid(2ac139036f538cc42a8301628453cad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Flowers.png using Guid(2ac139036f538cc42a8301628453cad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e073d2086ead254437c003142bfea7a') in 0.010936 seconds 
+  Import took 0.015376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Flowers_normals.png
+  artifactKey: Guid(fef99dc4f1da78f4bb42f06487d23444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Flowers_normals.png using Guid(fef99dc4f1da78f4bb42f06487d23444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd6b4a84f48cadf22f5103c2b70e9ba') in 0.011587 seconds 
+  Import took 0.016397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.272745 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/BaseGrass_normals.png
+  artifactKey: Guid(edddba054057d7c49b0669dc00b76644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/BaseGrass_normals.png using Guid(edddba054057d7c49b0669dc00b76644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77673442de87ad80d0a50d2e679e2506') in 0.016150 seconds 
+  Import took 0.020720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/PolygonNature/Textures/Misc/White.png
+  artifactKey: Guid(953aee88aa8b49347a6abd3be0f0eb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Misc/White.png using Guid(953aee88aa8b49347a6abd3be0f0eb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04f73a044295f4d813f11936452e032') in 0.010015 seconds 
+  Import took 0.014490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/BaseGrass_normals.png
+  artifactKey: Guid(edddba054057d7c49b0669dc00b76644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/BaseGrass_normals.png using Guid(edddba054057d7c49b0669dc00b76644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77673442de87ad80d0a50d2e679e2506') in 0.013197 seconds 
+  Import took 0.017573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/PolygonNature/Textures/Misc/White.png
+  artifactKey: Guid(953aee88aa8b49347a6abd3be0f0eb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Misc/White.png using Guid(953aee88aa8b49347a6abd3be0f0eb54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04f73a044295f4d813f11936452e032') in 0.006242 seconds 
+  Import took 0.010927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.813340 seconds.
+  path: Assets/PolygonNature/Textures
+  artifactKey: Guid(eb881ce309fac0740ad99a3494dddb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures using Guid(eb881ce309fac0740ad99a3494dddb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd743463d51727fb454c11c591a1b644') in 0.005313 seconds 
+  Import took 0.009897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.945755 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures
+  artifactKey: Guid(d4e7c7707a45e5b4baf721ee16b7f0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures using Guid(d4e7c7707a45e5b4baf721ee16b7f0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187331e22c2f889ebaabdf89e653c147') in 0.006084 seconds 
+  Import took 0.010529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069222 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Cliffwall.png
+  artifactKey: Guid(9e97314480fcc844da9bfd134b42fab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Cliffwall.png using Guid(9e97314480fcc844da9bfd134b42fab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61a4a485bf84a9846f79418907579eeb') in 0.012026 seconds 
+  Import took 0.016669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Grass.png
+  artifactKey: Guid(3cf543484d2fb7347b203b934a632fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Grass.png using Guid(3cf543484d2fb7347b203b934a632fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd30d997143e62604d60647c8a3010f5') in 0.012392 seconds 
+  Import took 0.016051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Mud_Normal.png
+  artifactKey: Guid(ad2dd91cdc11f8f43a926c7820f96c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Mud_Normal.png using Guid(ad2dd91cdc11f8f43a926c7820f96c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f5733fde854eee94e65595a82a99f6') in 0.013611 seconds 
+  Import took 0.017677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Rockwall.png
+  artifactKey: Guid(66bfffbfc1446e24dbf6081d20fc9daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Rockwall.png using Guid(66bfffbfc1446e24dbf6081d20fc9daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bea44221aa1373abc399c7857de957') in 0.011986 seconds 
+  Import took 0.016387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Grass_02.png
+  artifactKey: Guid(6fddb46842288ce45bac0f4bd1c06029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Grass_02.png using Guid(6fddb46842288ce45bac0f4bd1c06029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e812724a1d7dc3363f505335f268778') in 0.010980 seconds 
+  Import took 0.015699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/GrassHigherDetail_normals.png
+  artifactKey: Guid(2c12236e7da7ac84a8fa7f96d8299097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/GrassHigherDetail_normals.png using Guid(2c12236e7da7ac84a8fa7f96d8299097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db0ed80f2e56b1d47512cd965ab67fa') in 0.012019 seconds 
+  Import took 0.016462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Leaves.png
+  artifactKey: Guid(decdade75c933cc498f73a6c9f240760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Leaves.png using Guid(decdade75c933cc498f73a6c9f240760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401a49ba192f8f2a11b734b94367f741') in 0.012401 seconds 
+  Import took 0.017128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Pebbles_Sand.png
+  artifactKey: Guid(a28275b5e44d45d46b095b81f29862b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Pebbles_Sand.png using Guid(a28275b5e44d45d46b095b81f29862b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27eae8ad50e81542e240e4be608f84d4') in 0.011701 seconds 
+  Import took 0.016411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Pebbles.png
+  artifactKey: Guid(42a91a090222e8948a229c10e2b60a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Pebbles.png using Guid(42a91a090222e8948a229c10e2b60a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990d8b321139e9f243fb6779c7f06d41') in 0.012159 seconds 
+  Import took 0.016429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Sand_Desert.png
+  artifactKey: Guid(05dcd851a89870941b4cc2712b372480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Sand_Desert.png using Guid(05dcd851a89870941b4cc2712b372480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab17d4b42c1fd6b74ec06bb235c614d') in 0.010830 seconds 
+  Import took 0.014828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Snow.png
+  artifactKey: Guid(badc4e58ab4c4de4fbc591540c5ccbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Snow.png using Guid(badc4e58ab4c4de4fbc591540c5ccbe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d3451c3d838fd3cd9c7acfb4f45e11') in 0.012005 seconds 
+  Import took 0.015886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Cliffwall_normals.png
+  artifactKey: Guid(a7941b867f2d31b4b95f3d46b24e06c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Cliffwall_normals.png using Guid(a7941b867f2d31b4b95f3d46b24e06c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3f1cdd72606af125f2e7f205f7fa1e') in 0.014714 seconds 
+  Import took 0.019597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Leaves_03.png
+  artifactKey: Guid(700647d85b9c377458eced66f7087213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Leaves_03.png using Guid(700647d85b9c377458eced66f7087213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ae92098fc1690ed27b1caf79cac9dd') in 0.013203 seconds 
+  Import took 0.017976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Rockwall_Normal.png
+  artifactKey: Guid(ad5ab704b4310e6488aba63332144846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Rockwall_Normal.png using Guid(ad5ab704b4310e6488aba63332144846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f0680c21b0b6302dea9e4c03c95162') in 0.013318 seconds 
+  Import took 0.018093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Leaves_02.png
+  artifactKey: Guid(b7092185d138e6240b14133750049404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Leaves_02.png using Guid(b7092185d138e6240b14133750049404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83846bdd6cf074dad4c073115e0ce45') in 0.012793 seconds 
+  Import took 0.017412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Leaves_04.png
+  artifactKey: Guid(d115395b545f1e34088cda09117b88fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Leaves_04.png using Guid(d115395b545f1e34088cda09117b88fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d95f20a6b78f95238315306f5541bf') in 0.011831 seconds 
+  Import took 0.015733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Leaves_02.png
+  artifactKey: Guid(b7092185d138e6240b14133750049404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Leaves_02.png using Guid(b7092185d138e6240b14133750049404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83846bdd6cf074dad4c073115e0ce45') in 0.011308 seconds 
+  Import took 0.015112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Leaves_04.png
+  artifactKey: Guid(d115395b545f1e34088cda09117b88fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Leaves_04.png using Guid(d115395b545f1e34088cda09117b88fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d95f20a6b78f95238315306f5541bf') in 0.010845 seconds 
+  Import took 0.015276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Moss.png
+  artifactKey: Guid(7ef065304a725da489fc8e335b04b82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Moss.png using Guid(7ef065304a725da489fc8e335b04b82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c317bac8333c6809700b24b90e1af78a') in 0.011589 seconds 
+  Import took 0.016363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Mud.png
+  artifactKey: Guid(66205e406ebef6c44a53d4a36dada6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Mud.png using Guid(66205e406ebef6c44a53d4a36dada6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12daa97fd73d42a6565c6bf0e6540e8') in 0.010929 seconds 
+  Import took 0.014970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Pebbles_normals.png
+  artifactKey: Guid(78e2f7f758371f54cba51d1daf40a44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Pebbles_normals.png using Guid(78e2f7f758371f54cba51d1daf40a44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a1073e6bb4f2921258b414345985d8') in 0.011761 seconds 
+  Import took 0.016300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Sand_Darker.png
+  artifactKey: Guid(aad8ca4f67b548c4c968d86efaec686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Sand_Darker.png using Guid(aad8ca4f67b548c4c968d86efaec686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f6e575cdaf9ca278929d0c43ecf1e2') in 0.012039 seconds 
+  Import took 0.016564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Sand.png
+  artifactKey: Guid(f6605a6d90c197c4d99424a12dffb35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Sand.png using Guid(f6605a6d90c197c4d99424a12dffb35c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1f4371ff876f038815681a6d5490de') in 0.011483 seconds 
+  Import took 0.016033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/PolygonNature/Textures/Ground_Textures/Leaves_normals_01.png
+  artifactKey: Guid(d677754e011b84a4f849af9052c22119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Ground_Textures/Leaves_normals_01.png using Guid(d677754e011b84a4f849af9052c22119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240e3ebcee6d1f697074ee55355cabbb') in 0.013911 seconds 
+  Import took 0.017971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.470010 seconds.
+  path: Assets/PolygonNature/Textures/Grass_Textures/GrassFlower.png
+  artifactKey: Guid(0a02c831bd2840948b672ae5f9a19083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Grass_Textures/GrassFlower.png using Guid(0a02c831bd2840948b672ae5f9a19083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e363b6d33b370e50c9d974a57bd0ce') in 0.011178 seconds 
+  Import took 0.015771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/PolygonNature/Textures/Grass_Textures/GrassWheat.png
+  artifactKey: Guid(1e3507b60537a794d92e0d7ebf9a0f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Grass_Textures/GrassWheat.png using Guid(1e3507b60537a794d92e0d7ebf9a0f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2f08a7b3d1c832f2ee01d9a381b309') in 0.011314 seconds 
+  Import took 0.015192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/PolygonNature/Textures/Grass_Textures/Reeds.png
+  artifactKey: Guid(a154412b3c2edfc40a70b51e8f2aaabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Textures/Grass_Textures/Reeds.png using Guid(a154412b3c2edfc40a70b51e8f2aaabe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b23d8ecd0baecdd97144accf53e31b4') in 0.013009 seconds 
+  Import took 0.016984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.224112 seconds.
+  path: Assets/PolygonNature/Materials/Water
+  artifactKey: Guid(099000daf7edfff499ae30c8d3d8fe95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Materials/Water using Guid(099000daf7edfff499ae30c8d3d8fe95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8698910218d36288dc9303c04796dea8') in 0.006294 seconds 
+  Import took 0.010564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073609 seconds.
+  path: Assets/PolygonNature/Materials/Water/PolygonNature_Water.mat
+  artifactKey: Guid(4ccd9521bc19372458f9dda2e76fbce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Materials/Water/PolygonNature_Water.mat using Guid(4ccd9521bc19372458f9dda2e76fbce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790da4cd17d529f67209bbb6bebd7c96') in 0.016352 seconds 
+  Import took 0.021264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/PolygonNature/Materials/Water/PolygonNature_Water_Swamp.mat
+  artifactKey: Guid(374467a8ced5690499204f39d40992d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonNature/Materials/Water/PolygonNature_Water_Swamp.mat using Guid(374467a8ced5690499204f39d40992d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30eaae76c07c00c734c700829cdc788') in 0.015430 seconds 
+  Import took 0.020114 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

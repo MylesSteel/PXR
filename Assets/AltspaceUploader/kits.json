@@ -1,96 +1,72 @@
 {
     "uploadEntries": [
         {
-            "AltspaceId": "1873036394482368591",
-            "Name": "Audio Objects",
+            "AltspaceId": "1888307329053492122",
+            "Name": "VXR Foxy",
             "IsEnabled": true,
             "UploadItems": [
                 {
-                    "PrefabFilepath": "Assets\\Prefab\\Alarm Clock .prefab",
+                    "PrefabFilepath": "Assets\\Prefabs\\__ Call Variant.prefab",
                     "ForAndroid": true,
                     "ForWin": true,
                     "ForMac": true
                 },
                 {
-                    "PrefabFilepath": "Assets\\Prefab\\Angry dog .prefab",
+                    "PrefabFilepath": "Assets\\Prefabs\\2D fox say Variant.prefab",
                     "ForAndroid": true,
                     "ForWin": true,
                     "ForMac": true
                 },
                 {
-                    "PrefabFilepath": "Assets\\Prefab\\Demon .prefab",
+                    "PrefabFilepath": "Assets\\Prefabs\\beetle Variant.prefab",
                     "ForAndroid": true,
                     "ForWin": true,
                     "ForMac": true
                 },
                 {
-                    "PrefabFilepath": "Assets\\Prefab\\Electronic music .prefab",
+                    "PrefabFilepath": "Assets\\Prefabs\\Blackberry Variant.prefab",
                     "ForAndroid": true,
                     "ForWin": true,
                     "ForMac": true
                 },
                 {
-                    "PrefabFilepath": "Assets\\Prefab\\Fire .prefab",
+                    "PrefabFilepath": "Assets\\Prefabs\\Distress Variant.prefab",
                     "ForAndroid": true,
                     "ForWin": true,
                     "ForMac": true
                 },
                 {
-                    "PrefabFilepath": "Assets\\Prefab\\Gun shot .prefab",
+                    "PrefabFilepath": "Assets\\Prefabs\\egg Variant.prefab",
                     "ForAndroid": true,
                     "ForWin": true,
                     "ForMac": true
                 },
                 {
-                    "PrefabFilepath": "Assets\\Prefab\\Happy Jingle .prefab",
+                    "PrefabFilepath": "Assets\\Prefabs\\Fox Squall Variant.prefab",
                     "ForAndroid": true,
                     "ForWin": true,
                     "ForMac": true
                 },
                 {
-                    "PrefabFilepath": "Assets\\Prefab\\Metal whining .prefab",
+                    "PrefabFilepath": "Assets\\Prefabs\\mole Variant.prefab",
                     "ForAndroid": true,
                     "ForWin": true,
                     "ForMac": true
                 },
                 {
-                    "PrefabFilepath": "Assets\\Prefab\\Scario piano 2D.prefab",
+                    "PrefabFilepath": "Assets\\Prefabs\\mouse Variant.prefab",
                     "ForAndroid": true,
                     "ForWin": true,
                     "ForMac": true
                 },
                 {
-                    "PrefabFilepath": "Assets\\Prefab\\Scary piano .prefab",
+                    "PrefabFilepath": "Assets\\Prefabs\\PAWS Variant.prefab",
                     "ForAndroid": true,
                     "ForWin": true,
                     "ForMac": true
                 },
                 {
-                    "PrefabFilepath": "Assets\\Prefab\\sci fi alarm.prefab",
-                    "ForAndroid": true,
-                    "ForWin": true,
-                    "ForMac": true
-                },
-                {
-                    "PrefabFilepath": "Assets\\Prefab\\Uh Oh Stinky .prefab",
-                    "ForAndroid": true,
-                    "ForWin": true,
-                    "ForMac": true
-                },
-                {
-                    "PrefabFilepath": "Assets\\Prefab\\Warp.prefab",
-                    "ForAndroid": true,
-                    "ForWin": true,
-                    "ForMac": true
-                },
-                {
-                    "PrefabFilepath": "Assets\\Prefab\\Yay .prefab",
-                    "ForAndroid": true,
-                    "ForWin": true,
-                    "ForMac": true
-                },
-                {
-                    "PrefabFilepath": "Assets\\Prefab\\yippe .prefab",
+                    "PrefabFilepath": "Assets\\Prefabs\\worm  Variant.prefab",
                     "ForAndroid": true,
                     "ForWin": true,
                     "ForMac": true
